@@ -64,7 +64,7 @@
  * };
  */
 
-/*
+
 // recursive method 1
 bool judge_bound(struct TreeNode *root, int *lower_bound, int *upper_bound) {
     if (NULL == root) return true;
@@ -87,7 +87,7 @@ bool isValidBST(struct TreeNode* root){
     int lower_bound, upper_bound;
     return judge_bound(root, &lower_bound, &upper_bound);
 }
-*/
+
 
 // recursive method 2
 void push_stack(struct TreeNode *root, int *stack, int *cnt) {
